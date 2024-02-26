@@ -1,8 +1,9 @@
+jupyterlab
 ipykernel
 ipywidgets
 langchain
-PyMuPDF
 chromadb
 sentence-transformers
 llama-cpp-python
 openai
+pysqlite3-binary
