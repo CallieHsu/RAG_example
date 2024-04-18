@@ -1,0 +1,35 @@
+SH610R4 compact desktop is a potent desktop PC designed around LGA1700 to support Intel® Core processors of the 13th/12th Generation. Enhanced by Intel® Xe graphics and dual-channel DDR4-3200 memory, it excels in multitasking and 4K/60 content processing. Expandability is a standout feature, with a built-in PCI-E Gen5 x16 slot for graphics upgrades or video capture cards. It accommodates two 3.5-inch HDDs, an ODD bay, and an M.2 SSD. Connectivity is robust, featuring eight USB 3.2 and USB 2.0 ports, Gigabit LAN, HDMI 2.0b, dual DisplayPort, and VGA interfaces, making it versatile for visual computing, content creation, control rooms, and more.
+    Processor: Support Intel® 12th/13th generation Core™ i3/i5/i7/i9, Pentium®, Celeron®125W LGA1700 CPU
+    Memory: 2x 288 pin DDR4 2933/3200* MHz slots, 32GB per DIMM (Max 64GB)
+    Storage: SATA 6.0Gb/s interface, (1) 5.25" ODD bay 
+    Chassis: Semi-rugged chassis made of aluminum, 13"(L) × 8.5"(W) × 7.8"(H)
+
+SW580R8 micro server supports 10th/11th gen Intel Core processors, 128 GB DDR4-3200 RAM, dual-slot graphics cards, and four 3.5" hard disks in RAID. It's compatible with Xeon W-series processors, offering ECC and vPro for stability and remote management. With four network ports (including 2.5 GBit/s), a second M.2 slot, and a TPM security chip, encased in a 14-liter aluminum chassis, it's ideal for mini-servers and workstations, ensuring reliability under a heavy load.
+    Processor: Intel processors in the LGA1200 socket (Gen 10/11) & Xeon-W series
+    Memory: 4x 288 pin DDR4 ECC 2933/3200* MHz slots, 32GB per DIMM (Max 128GB)
+    Storage: Three M.2 slots (2× M.2-2280, 1× M.2-2230), 4× SATA and space for 4× 2.5"/3.5" drives
+    Chassis: Semi-rugged chassis made of aluminum, 13"(L) × 8.5"(W) × 7.5"(H)
+
+SH570R8 compact desktop caters to professionals with high demands in CPU, RAM, graphics, and storage. Built on the Intel H570 chipset, it supports 10th and 11th gen. Intel Core processors. Compact at 33.2 × 21.5 × 19.0 cm, it suits mobile content production and other system-intense applications. It blends a current high-end processor, up to 128 GB RAM, four hard disks, NVMe SSD, dual gigabit Ethernet, and dual-slot graphics card, creating an unrivaled compact powerhouse for performance per inch.
+    Processor: Intel processors in the LGA1200 socket (Gen 10/11)
+    Memory: 4x 288 pin DDR4 2933/3200* MHz slots, 32GB per DIMM (Max 128GB)
+    Storage: Two M.2 slots (1× M.2-2280, 1× M.2-2230), 4× SATA with space for 4× 3.5"
+    Chassis: Semi-rugged chassis made of aluminum, 13"(L) × 8.5"(W) × 7.5"(H)
+
+SH570R6 compact desktop demonstrates the synergy of contemporary design with potent performance. Its compact black aluminum case occupies only 14 liters in a high-performance workstation. It uses the power of 10th/11th gen. Intel Core processors ("Comet Lake-S" and "Rocket Lake-S"), a dual-slot graphics card, rapid M.2 NVMe SSDs, two 3.5'' hard drives in RAID, up to 128 GB of DDR4 memory, and an optical drive. It can also support up to three optional UHD displays, even without a dedicated graphics card.
+    Processor: Intel processors in the LGA1200 socket (Gen 10/11)
+    Memory: 4x 288 pin DDR4 2933/3200* Mhz slots, 32GB per DIMM (Max 128GB)
+    Storage: Two M.2 slots (1× M.2-2280, 1× M.2-2230), 4× SATA with space for 2× 3.5" and 1× 5.25" drives
+    Chassis: Semi-rugged chassis made of aluminum, 13"(L) × 8.5"(W) × 7.5"(H)
+
+SH510R4 compact desktop supports Intel Core processors of the 10th and 11th generations for LGA1200 sockets. It handles up to 64 GB DDR4-3200 memory, two 4K displays at 60 Hz via DisplayPort and HDMI 2.0, and high-performance M.2 SSDs. With up to four USB 3.2 devices, it's versatile; expandability includes a graphics card slot and a PCIe-X1 slot for other cards. Additional installations like WLAN and COM ports, are choices too. The SH510R4 boasts an 80 PLUS power supply and Shuttle's I.C.E. heatpipe cooling, promoting efficiency and long-term operation. The front panel can be customized for ultimate unique personalization.
+    Processor: Intel processors in the LGA1200 socket (Gen 10/11)
+    Memory: 2x 288 pin DDR4 2933/3200* Mhz slots, 32GB per DIMM (Max 64GB)
+    Storage: 2x M.2 slots (1× M.2-2280, 1× M.2-2230) 3× SATA and space for 2× 3.5" and 1× 5.25" drives
+    Chassis: Semi-rugged chassis made of aluminum, 13"(L) × 8.5"(W) × 7.8"(H)
+
+SZ270R9 compact desktop supports 7th Gen Intel® Core™ i7 for optimal gaming and VR performance. Its RGB lighting tech allows personalization, while the XPC Overclock Software and hardware turbo button enable real-time overclocking. The compact chassis fits up to four 3.5” HDDs, two NVMe SSDs, and large dual-slot graphics cards. Dual Intel Gigabit LAN, a 500W 80 PLUS SILVER PSU, three M.2, and ten USB ports ensure robust expandability. The SZ270R9 is a gamer's choice for LAN parties, combining power with portability.
+    Processor: Support Kabylake/Skylake 95W Core i3/i5/i7 LGA 1151 CPU processor
+    Memory: 4x DDR4 2133/2400 MHz slots, 16GB per DIMM (Max 64GB)
+    Storage: SATA 6Gb/s (4) 3.5" HDD bay 
+    Chassis: Semi-rugged chassis made of aluminum, 13"(L) × 8.5"(W) × 7.8"(H)
