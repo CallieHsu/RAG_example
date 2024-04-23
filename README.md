@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ## Preparing LLM
 - LLM format: `.gguf`
 - LLM for this demo: Llama2
-1. Could download from Hugging Face([TheBloke/Llama-2-7B-GGUF](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF)) or converted by [Llama.cpp](https://github.com/ggerganov/llama.cpp)
+1. Could download from Hugging Face([TheBloke/Llama-2-7B-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF)) or converted by [Llama.cpp](https://github.com/ggerganov/llama.cpp)
 2. Put the `llama-2-7b-chat.Q4_K_M.gguf` into folder.
 
 
