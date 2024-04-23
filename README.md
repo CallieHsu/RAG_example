@@ -20,14 +20,14 @@ pip install -r requirements.txt
 ```
 
 ### 5. (For GPU device) llama.cpp for LangChain
-#### Nvidia GPU
+#### llama-cpp-python for Nvidia GPU
 - CUDA toolkit required  📚 [How to Install CUDA on Ubuntu 22.04 | Step-by-Step](https://www.cherryservers.com/blog/install-cuda-ubuntu)
 ```
 !CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install --upgrade --force-reinstall llama-cpp-python --no-cache-dir
 ```
 📚 more details: [llama-cpp-python: Installation with OpenBLAS / cuBLAS / CLBlast](https://python.langchain.com/docs/integrations/llms/llamacpp/#installation-with-openblas-cublas-clblast)
 
-#### Usage
+#### Arguments for GPU device
 If the installation with BLAS backend was correct, you will see a `BLAS = 1` indicator in model properties.
 
 Two of the most important parameters for use with GPU are:
