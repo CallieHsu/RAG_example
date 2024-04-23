@@ -19,6 +19,16 @@ python3 -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+### 5. (For GPU device) llama.cpp for LangChain
+#### Nvidia GPU
+- CUDA toolkit required  📚 [How to Install CUDA on Ubuntu 22.04 | Step-by-Step](https://www.cherryservers.com/blog/install-cuda-ubuntu)
+```
+!CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install --upgrade --force-reinstall llama-cpp-python --no-cache-dir
+```
+📚 more details: [llama-cpp-python: Installation with OpenBLAS / cuBLAS / CLBlast](https://python.langchain.com/docs/integrations/llms/llamacpp/#installation-with-openblas-cublas-clblast)
+
+
+
 ## Preparing LLM
 - LLM format: `.gguf`
 - LLM for this demo: Llama2
