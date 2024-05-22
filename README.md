@@ -20,14 +20,73 @@ pip install -r requirements.txt
 ```
 
 ### 5. (For GPU device) llama.cpp for LangChain
-#### llama-cpp-python for Nvidia GPU
 - CUDA toolkit required  📚 [How to Install CUDA on Ubuntu 22.04 | Step-by-Step](https://www.cherryservers.com/blog/install-cuda-ubuntu)
+#### **CUDA installation**
+Reference: [How to Install CUDA on Ubuntu 22.04 | Step-by-Step](https://www.cherryservers.com/blog/install-cuda-ubuntu)
+##### 1. Upgrade your Ubuntu
+```
+sudo apt update
+sudo apt upgrade 
+```
+##### 2. List & install the recommended NVIDIA drivers
+```
+sudo apt install ubuntu-drivers-common
+sudo ubuntu-drivers devices
+```
+Then install the recommended driver list above:
+```
+sudo apt install nvidia-driver-XXX
+```
+##### 3. Reboot your system & Check the driver installation
+```
+sudo reboot now
+```
+```
+nvidia-smi
+```
+##### 4. Install GCC
+```
+sudo apt install gcc
+```
+check installation:
+```
+gcc -v
+```
+##### 5. Install CUDA toolkit Ubuntu
+- Go to Nvidia CUDA Toolkit download website:
+
+![image](https://github.com/CallieHsu/RAG_example/assets/62089495/4bf0fd71-5f6b-412d-8a32-26a9f969d07a)
+
+- follow the steps it shows:
+```
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-keyring_1.1-1_all.deb
+sudo dpkg -i cuda-keyring_1.1-1_all.deb
+sudo apt-get update
+sudo apt-get -y install cuda-toolkit-12-4
+```
+If you encounter dependency errors during the installation, try running `sudo apt --fix-broken install` to fix them. Apt will suggest running it if needed.
+- Reboot your system to load the right modules required by CUDA.
+```
+sudo reboot now
+```
+#### 6. Environment setup
+- Add the following lines to your `~/.bashrc`, then `source ~/.bashrc`
+```bash
+export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-12.4/lib64\
+                         ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+```
+#### 7. Test the CUDA toolkit, done !
+```
+nvcc -V
+```
+### llama-cpp-python for Nvidia GPU
 ```
 !CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install --upgrade --force-reinstall llama-cpp-python --no-cache-dir
 ```
 📚 more details: [llama-cpp-python: Installation with OpenBLAS / cuBLAS / CLBlast](https://python.langchain.com/docs/integrations/llms/llamacpp/#installation-with-openblas-cublas-clblast)
 
-#### Arguments for GPU device
+### Arguments for GPU device
 If the installation with BLAS backend was correct, you will see a `BLAS = 1` indicator in model properties.
 
 Two of the most important parameters for use with GPU are:
